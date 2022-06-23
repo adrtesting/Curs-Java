@@ -25,7 +25,6 @@ public class HomeWork {
 			
 			if (EnterUser == userValue && EnterPassword == parolaValue) {
 				System.out.println("Login Succesful");
-			break;
 			}
 			else {
 				System.out.println("Login Error");

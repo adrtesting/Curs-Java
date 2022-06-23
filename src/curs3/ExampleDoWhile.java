@@ -15,7 +15,7 @@ public class ExampleDoWhile {
 			number = scan.nextInt();
 			System.out.println(number*10);
 			
-		}while(number != 0);
+		} while(number != 0);
 
 		/*
 		 * un program carre intreaba userul un numar

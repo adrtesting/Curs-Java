@@ -4,17 +4,19 @@ public class TestHomework {
 
 	public static void main(String[] args) {
 		
-		Vehicul Bicicleta = new Bicicleta();
-		Vehicul Masina = new Masina();
+		Bicicleta bicicleta = new Bicicleta(" Pegas", 0, 90);
+		bicicleta.detaliivehicul();
+		verificaMotorizarea(bicicleta);
 		
-		Bicicleta.getNume();
-		Bicicleta.getMotorizare();
-		Masina.getNume();
-		Masina.getMotorizare();
+		Masina masina = new Masina(" Dacia", 86, 190);
+		masina.detaliivehicul();
+		verificaMotorizarea(masina);
 		
-		Bicicleta.getdetaliivehicul();
-		Masina.getdetaliivehicul();
-		
+}
+	
+
+	public static void  verificaMotorizarea (Vehicul obj) {
+	System.out.println("Aceaste este o " + obj.nume() + " si are " + obj.motorizare() );
 }
 
 }

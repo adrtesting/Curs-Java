@@ -3,47 +3,27 @@ package curs4.homework;
 public class Vehicul {
 	
 	private String brand;
-	private String nivelPoluare;
+	private int nivelPoluare;
 	private int vitezaMedie;
-	private String nume;
-	private String motorizare;
 	
-	public String getNume() {
-		return nume;
+	public Vehicul(String brand, int nivelPoluare, int vitezaMedie) {
+		this.brand = brand;
+		this.nivelPoluare = nivelPoluare;
+		this.vitezaMedie = vitezaMedie;
+	}
+	
+	public String nume() {
 		
+		return "nume general";
+	}
+	public String motorizare() {
+		return "motorizare generica";
 	}
 	
-	public void setNume(String nume) {
-		this.nume = nume;
-		
-	}
 	
-	public String getMotorizare() {
-		return motorizare;
-	}
-	
-	public void setMotorizare(String motorizare) {
-		this.motorizare = motorizare;
-	}
-	
-	public void getdetaliivehicul() {
-		System.out.println(nivelPoluare + "pentru masina" + brand + "este : 5" + "si" + vitezaMedie +  "atinsa este de 180km/h");
+	public void detaliivehicul() {
+		System.out.println("Nivelul de poluare pentru vehiculul" + brand + " este : " + nivelPoluare + " si viteza medie atinsa este de " + vitezaMedie);
 		
 	}
 
-	public String getbrand() {
-		// TODO Auto-generated method stub
-		return brand;
-	}
-
-	public String getnivelPoluare() {
-		// TODO Auto-generated method stub
-		return nivelPoluare;
-	}
-
-	public void setVitezaMedie(int vitezaMedie) {
-		return;
-	}
-	
-	
 }

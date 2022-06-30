@@ -44,4 +44,8 @@ public class ArrayExample3 {
 			
 		}
 	}
+	
+	public void rezolvareCuWhile(int element) {
+		
+	}
 }

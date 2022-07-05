@@ -22,8 +22,7 @@ public class HomeWorkArray {
 		months[12] = "Decembrie";
 		
 		int year = 13;
-	
-		
+
 		do {
 			
 			Scanner scan = new Scanner(System.in);
